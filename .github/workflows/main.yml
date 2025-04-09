@@ -19,12 +19,7 @@ jobs:
       - name: Set up Python 3.x
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
-
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+          python-version: 3
 
       - name: pip install panda 
         run: pip install panda 
